@@ -1,0 +1,8 @@
+de:
+  js:
+    contactform:
+      title: 'Kontaktformular'
+
+      create_post:
+        text_field_label: 'Neue Anfrage:'
+        submit_label: 'Absenden'

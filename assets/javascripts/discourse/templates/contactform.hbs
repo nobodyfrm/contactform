@@ -1,0 +1,12 @@
+<h1>{{ i18n 'contactform.title' }}</h1>
+
+<form {{ action 'submitSupportRequest' content on='submit' }}>
+  <label>
+    {{ i18n 'contactform.create_post.text_field_label' }}
+    {{ textarea name='note' value=content }}
+  </label>
+
+  <button type='submit' class='btn btn-primary'>
+    {{ i18n 'contactform.create_post.submit_label' }}
+  </button>
+</form>
